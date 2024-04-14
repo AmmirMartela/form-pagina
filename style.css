@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font: normal 22px Simonson;
+    color: rgb(21, 22, 22);
+    background-color: rgb(246, 243, 243);
+ }
+  
+.formu {
+    margin: 10px 15px;
+    padding: 15px 50px;
+    float: right;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    
+ }
+ .centeer {
+    display: flex;
+    justify-content: center;
+ }
+    
+ input[type="submit"], input[type="reset"] {
+    width: 50%;
+    background-color: rgb(4, 0, 255);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+  }
+  input[type="button"] {
+    background-color: rgb(116, 228, 10);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(196, 193, 213);
+    color: black;
+ }
